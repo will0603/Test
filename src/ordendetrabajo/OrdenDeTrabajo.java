@@ -15,7 +15,9 @@ public class OrdenDeTrabajo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Menu().setVisible(true);
+        DBConeccion db = new DBConeccion();
+        db.getConnection();
     }
     
 }
