@@ -16,8 +16,8 @@ public class OrdenDeTrabajo {
      */
     public static void main(String[] args) {
         new Menu().setVisible(true);
-        DBConeccion db = new DBConeccion();
-        db.getConnection();
+        //DBConeccion db = new DBConeccion();
+       // db.getConnection();
     }
     
 }
