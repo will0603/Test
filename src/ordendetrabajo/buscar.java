@@ -51,7 +51,7 @@ public class buscar extends javax.swing.JFrame {
         priceData1 = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jButton1.setText("Menú");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -219,7 +219,7 @@ public class buscar extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
+       new Menu().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void nameDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameDataActionPerformed
