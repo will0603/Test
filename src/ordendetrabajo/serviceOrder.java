@@ -75,7 +75,6 @@ public class serviceOrder extends javax.swing.JFrame {
 
         jLabel8.setText("Precio (S/.):");
 
-        jTextField6.setText("S/.");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
